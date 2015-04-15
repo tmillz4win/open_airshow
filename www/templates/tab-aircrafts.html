@@ -1,0 +1,20 @@
+<ion-view title="Performers">
+  <ion-content>
+    <ion-list>
+      <div class="item item-divider bar-title">
+        Aircraft are subject to change
+      </div>
+      <ion-item class="col item-avatar-left" ng-class="{'item-divider':aircraft.divider, 'item-icon-right': !aircraft.divider}" ng-repeat="aircraft in aircrafts" type="item-text-wrap" >
+        <ion-item ng-if="!aircraft.divider" ng-href="#/tab/aircraft/{{aircraft.id}}">
+        <img ng-src="{{aircraft.tmb}}">
+        {{aircraft.name}}
+        <i class="icon ion-chevron-right icon-accessory" ></i>
+        <!--img ng-src="{{aircraft.img}}" style="height:50px;" class="item-icon-left" href="#" -->
+        </ion-item>
+        <div ng-if="aircraft.divider" class="padding">
+        {{aircraft.name}}
+        </div>
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>

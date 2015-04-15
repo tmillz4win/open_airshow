@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<widget id="com.name.openairshow" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>OpenAirshow</name>
+  <description>
+        An Ionic Framework and Cordova project.
+    </description>
+  <author email="hi@ionicframework" href="http://ionicframework.com/">
+      Ionic Framework Team
+    </author>
+  <content src="index.html"/>
+  <access origin="mailto:*" launch-external="yes"/>
+  <access origin="*.pushwoosh.com"/>
+  <access origin="*.com"/>
+  <access origin="*.twitter.com/DyessAFBase"/>
+  <access origin="*.mobile.twitter.com/DyessAFBase"/>
+  <access origin="*twitter.*"/>
+  <access origin="*.twitter" />
+  <access origin="*.mobile" />
+  <access origin="*mobile.*"/>
+  <access origin="tel:*" launch-external="yes" /> 
+  <access origin="geo:*" launch-external="yes" /> 
+  <icon src="www/img/app-icon.png" />
+  <platform name="ios">
+     <icon src="res/ios/icon-57.png" width="57" height="57" />
+     <icon src="res/ios/icon-72.png" width="72" height="72" />
+     <icon src="res/ios/icon-76.png" width="76" height="76" />
+     <icon src="res/ios/icon-120.png" width="120" height="120" />
+     <icon src="res/ios/icon-152.png" width="152" height="152" />
+  </platform>
+  <preference name="SplashScreen" value="screen"/>
+  <preference name="SplashScreenDelay" value="3000"/>
+  <preference name="webviewbounce" value="false"/>
+  <preference name="UIWebViewBounce" value="false"/>
+  <preference name="DisallowOverscroll" value="true"/>
+  <preference name="BackupWebStorage" value="none"/>
+  <preference name="Orientation" value="default"/>
+  <feature name="InAppBrowser">
+    <param name="ios-package" value="CDVInAppBrowser" />
+    <param name="android-package" value="org.apache.cordova.inappbrowser.InAppBrowser" />
+  </feature>
+  <feature name="Camera">
+    <param name="ios-package" value="CDVCamera" />
+  </feature>
+  <feature name="Camera">
+    <param name="android-package" value="org.apache.cordova.camera.CameraLauncher" />
+  </feature>
+</widget>

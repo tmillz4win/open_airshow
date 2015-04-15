@@ -1,0 +1,79 @@
+/* Empty. Add your own CSS if you like */
+
+.narrow {
+    width:100%;
+    font-family: 'OpenSansCondLight';
+    font-weight: 900;
+}
+
+.custom-icon:before,
+.custom-icon {
+	font-size: 50px;
+	display:block !important;
+}
+
+.button.button-positive, .button-outline, .button-assertive {
+	-webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+	        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.26);
+}
+
+.bone {
+    background: url("../img/b1crewchief.jpg") no-repeat center;
+    background-size: cover;
+    /*background-color: #585858;*/
+}
+
+.translucent{
+	background-color: rgba(255, 255, 255, 0.7);
+}
+
+.bar-title {
+	text-align: center;
+}
+    
+.logo-text-body { 
+	text-align: center;
+}
+
+p.italic {
+    font-style: italic;
+    font-size: 120%;
+    padding-top: 10px;
+}
+
+.bar.bar-positive {
+	/*border-color: #003399;*/
+	background-color: #003399;
+}
+
+.div-pic {
+	min-height: 100px; 
+}
+
+.row {
+	padding:0px !important;
+	margin:0px !important;
+}
+
+.col {
+	padding:0px !important;
+	margin:0px !important;
+}
+
+#scroller{
+width:1320px;
+height:2040px;
+margin:auto;
+overflow:hidden;
+position:relative;
+}
+.image{
+position:relative;
+}
+
+.noline {
+border-top: 0px;
+border-left: 0px;
+border-right: 0px;
+border-bottom: 0px;
+}

@@ -1,0 +1,17 @@
+<ion-view title="{{aircraft.name}}">
+  <ion-content ng-controller="AircraftDetailCtrl" has-header="true" padding="true" width="50">
+        <center>
+  	      <img ng-src={{aircraft.img}}>
+  	    </center>
+  	    <div class="card">
+  	    <div class="item item-divider">
+  	       Details
+  	    </div>
+  	    <div class="item item-text-wrap">
+	       <p>{{aircraft.text}}
+	       <a href="{{aircraft.link}}">{{aircraft.link}}</a>
+	       <p ng-bind-html="myHTML"></p>
+	    </div>
+  	</div>
+  </ion-content>
+</ion-view>

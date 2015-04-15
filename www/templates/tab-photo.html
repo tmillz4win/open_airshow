@@ -1,0 +1,22 @@
+<ion-view title="Photos">
+<ion-content class="padding" ng-init="alert()" ng-controller="PhotoCtrl">
+<a class="button button-block button-positive icon-right ion-images narrow" style="text-align:left" onclick="getPhoto(navigator.camera.PictureSourceType.SAVEDPHOTOALBUM);">Select Photo From Your Album</a>
+<div class="div-pic">
+   <center>
+      <img style="display:none;height:100px;" id="largeImage" src="" />
+   <center>
+</div>
+<a class="button button-block button-outline button-dark icon-right ion-social-twitter narrow" style="text-align:left" ng-click="socialShare()">
+Share photo on Twitter or Instagram
+</a>
+
+<a class="button button-block button-outline button-dark icon-right ion-social-facebook narrow" style="text-align:left" ng-click="facebook()">
+   Share photo on Facebook
+</a>
+
+<a class="button button-block button-outline button-dark icon-right ion-email narrow" style="text-align:left" ng-click="email()">
+      Email photo to Dyess AFB Public Affairs
+</a>
+
+</ion-content>
+</ion-view>

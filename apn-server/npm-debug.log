@@ -1,0 +1,137 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node', '/usr/local/bin/npm', 'install', 'apn' ]
+2 info using npm@1.4.28
+3 info using node@v0.10.33
+4 warn package.json open-airshow@1.0.0 No repository field.
+5 warn package.json open-airshow@1.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ 'apn', null ]
+8 verbose cache add name=undefined spec="apn" args=["apn",null]
+9 verbose parsed url { protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: 'apn',
+9 verbose parsed url   path: 'apn',
+9 verbose parsed url   href: 'apn' }
+10 silly lockFile 541d0bb8-apn apn
+11 verbose lock apn /Users/hello/.npm/541d0bb8-apn.lock
+12 silly lockFile 541d0bb8-apn apn
+13 silly lockFile 541d0bb8-apn apn
+14 verbose addNamed [ 'apn', '' ]
+15 verbose addNamed [ null, '*' ]
+16 silly lockFile 9adafc8c-apn apn@
+17 verbose lock apn@ /Users/hello/.npm/9adafc8c-apn.lock
+18 silly addNameRange { name: 'apn', range: '*', hasData: false }
+19 verbose request where is /apn
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 0e8912e81eb0449f
+22 verbose url raw /apn
+23 verbose url resolving [ 'https://registry.npmjs.org/', './apn' ]
+24 verbose url resolved https://registry.npmjs.org/apn
+25 verbose request where is https://registry.npmjs.org/apn
+26 info trying registry request attempt 1 at 22:20:14
+27 verbose etag "CV82T8TNELQN9E9GPAIV4DW2C"
+28 http GET https://registry.npmjs.org/apn
+29 http 304 https://registry.npmjs.org/apn
+30 silly registry.get cb [ 304,
+30 silly registry.get   { date: 'Mon, 12 Jan 2015 04:20:15 GMT',
+30 silly registry.get     server: 'Apache',
+30 silly registry.get     via: '1.1 varnish',
+30 silly registry.get     'last-modified': 'Mon, 12 Jan 2015 04:20:15 GMT',
+30 silly registry.get     'cache-control': 'max-age=60',
+30 silly registry.get     etag: '"CV82T8TNELQN9E9GPAIV4DW2C"',
+30 silly registry.get     age: '0',
+30 silly registry.get     'x-served-by': 'cache-ord1733-ORD',
+30 silly registry.get     'x-cache': 'MISS',
+30 silly registry.get     'x-cache-hits': '0',
+30 silly registry.get     'x-timer': 'S1421036415.523095,VS0,VE266',
+30 silly registry.get     vary: 'Accept',
+30 silly registry.get     'content-length': '0',
+30 silly registry.get     'keep-alive': 'timeout=10, max=50',
+30 silly registry.get     connection: 'Keep-Alive' } ]
+31 verbose etag https://registry.npmjs.org/apn from cache
+32 silly addNameRange number 2 { name: 'apn', range: '*', hasData: true }
+33 silly addNameRange versions [ 'apn',
+33 silly addNameRange   [ '1.1.1',
+33 silly addNameRange     '1.0.6',
+33 silly addNameRange     '1.1.0',
+33 silly addNameRange     '1.0.5',
+33 silly addNameRange     '1.0.4',
+33 silly addNameRange     '1.0.3',
+33 silly addNameRange     '1.0.2',
+33 silly addNameRange     '1.0.1',
+33 silly addNameRange     '1.0.0',
+33 silly addNameRange     '1.1.2',
+33 silly addNameRange     '1.0.7',
+33 silly addNameRange     '1.1.3',
+33 silly addNameRange     '1.1.4',
+33 silly addNameRange     '1.1.5',
+33 silly addNameRange     '1.1.6',
+33 silly addNameRange     '1.1.7',
+33 silly addNameRange     '1.2.0',
+33 silly addNameRange     '1.2.1',
+33 silly addNameRange     '1.2.2',
+33 silly addNameRange     '1.2.3',
+33 silly addNameRange     '1.2.4',
+33 silly addNameRange     '1.2.5',
+33 silly addNameRange     '1.2.6',
+33 silly addNameRange     '1.3.0',
+33 silly addNameRange     '1.3.1',
+33 silly addNameRange     '1.3.2',
+33 silly addNameRange     '1.3.3',
+33 silly addNameRange     '1.3.4',
+33 silly addNameRange     '1.3.5',
+33 silly addNameRange     '1.3.6',
+33 silly addNameRange     '1.3.7',
+33 silly addNameRange     '1.3.8',
+33 silly addNameRange     '1.4.0',
+33 silly addNameRange     '1.4.1',
+33 silly addNameRange     '1.4.2',
+33 silly addNameRange     '1.4.3',
+33 silly addNameRange     '1.4.4',
+33 silly addNameRange     '1.5.1',
+33 silly addNameRange     '1.5.2',
+33 silly addNameRange     '1.6.0',
+33 silly addNameRange     '1.6.1',
+33 silly addNameRange     '1.6.2' ] ]
+34 verbose addNamed [ 'apn', '1.6.2' ]
+35 verbose addNamed [ '1.6.2', '1.6.2' ]
+36 silly lockFile 715d65a6-apn-1-6-2 apn@1.6.2
+37 verbose lock apn@1.6.2 /Users/hello/.npm/715d65a6-apn-1-6-2.lock
+38 silly lockFile d7345cc4-stry-npmjs-org-apn-apn-1-6-2-tgz https://registry.npmjs.org/apn/-/apn-1.6.2.tgz
+39 verbose lock https://registry.npmjs.org/apn/-/apn-1.6.2.tgz /Users/hello/.npm/d7345cc4-stry-npmjs-org-apn-apn-1-6-2-tgz.lock
+40 verbose addRemoteTarball [ 'https://registry.npmjs.org/apn/-/apn-1.6.2.tgz',
+40 verbose addRemoteTarball   'c074d41220bdb7e6a19502075d4feba1968383f3' ]
+41 info retry fetch attempt 1 at 22:20:15
+42 verbose fetch to= /var/folders/09/btl6tsf13m3474wch1g_v0fw0000gp/T/npm-58286-peZIiLyu/registry.npmjs.org/apn/-/apn-1.6.2.tgz
+43 http GET https://registry.npmjs.org/apn/-/apn-1.6.2.tgz
+44 http 200 https://registry.npmjs.org/apn/-/apn-1.6.2.tgz
+45 silly lockFile d7345cc4-stry-npmjs-org-apn-apn-1-6-2-tgz https://registry.npmjs.org/apn/-/apn-1.6.2.tgz
+46 silly lockFile d7345cc4-stry-npmjs-org-apn-apn-1-6-2-tgz https://registry.npmjs.org/apn/-/apn-1.6.2.tgz
+47 silly lockFile 715d65a6-apn-1-6-2 apn@1.6.2
+48 silly lockFile 715d65a6-apn-1-6-2 apn@1.6.2
+49 silly lockFile 9adafc8c-apn apn@
+50 silly lockFile 9adafc8c-apn apn@
+51 error Error: EACCES, mkdir '/Users/hello/.npm/apn/1.6.2'
+51 error  { [Error: EACCES, mkdir '/Users/hello/.npm/apn/1.6.2']
+51 error   errno: 3,
+51 error   code: 'EACCES',
+51 error   path: '/Users/hello/.npm/apn/1.6.2',
+51 error   parent: 'open-airshow' }
+52 error Please try running this command again as root/Administrator.
+53 error System Darwin 14.0.0
+54 error command "node" "/usr/local/bin/npm" "install" "apn"
+55 error cwd /Users/hello/airfest/apn-server
+56 error node -v v0.10.33
+57 error npm -v 1.4.28
+58 error path /Users/hello/.npm/apn/1.6.2
+59 error code EACCES
+60 error errno 3
+61 error stack Error: EACCES, mkdir '/Users/hello/.npm/apn/1.6.2'
+62 verbose exit [ 3, true ]
