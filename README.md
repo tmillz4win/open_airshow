@@ -1,4 +1,7 @@
 # open_airshow
+<!DOCTYPE html>
+<html>
+<body>
 An open source temmplate for airshows
 
 You will need the following thing inorder to compile and publish this app on the app stores.
@@ -12,3 +15,5 @@ You will need the following thing inorder to compile and publish this app on the
 8. Install the following cordova plugins
 9. Type $ionic serve --lab  and you will see the app open up in a browser
 10. Customize the contents of open_airshow\templates\www to fit your event
+</body>
+</html>
