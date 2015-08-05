@@ -5,7 +5,7 @@
 An open source temmplate for airshows
 
 You will need the following thing inorder to compile and publish this app on the app stores.
-1. A mac computer (if you want to publish for iOS)
+---1. A mac computer (if you want to publish for iOS)
 2. Pay the developer fees for Google (one time $25) and Apple (yearly $99)
 3. Install Android Studio and/or Eclips for Android (I prefer Eclipse)
 4. Install Xcode for iOS
