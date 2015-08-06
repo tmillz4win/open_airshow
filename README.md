@@ -1,7 +1,7 @@
 # open_airshow
 An open source template for airshows
 
-![ScreenShot](https://drive.google.com/file/d/12f8wgjN5qxak2GPRbKLwzgBuxqMQgcVgag/view?usp=sharing)
+![ScreenShot](https://www.googledrive.com/host/12f8wgjN5qxak2GPRbKLwzgBuxqMQgcVgag)
 
 You will need the following thing inorder to compile and publish this app on the app stores.
    1. A mac computer (if you want to publish for iOS)
